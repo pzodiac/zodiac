@@ -1,0 +1,60 @@
+<div class="adsItems">
+    <div class="entry">
+        <div class="image">
+            <a target="_blank" href="<?php echo $article['url'] ?>" class="wrapImage" title="<?php echo $article['name'] ?>">
+                <img class="obj" src="<?php echo $article['default_thumbnail_url'] ?>" alt="<?php echo $article['name'] ?>">
+            </a>
+        </div>
+        
+        <div class="summary">
+            <a target="_blank" href="<?php echo $article['url'] ?>" class="title" title="<?php echo $article['name'] ?>">
+                <?php echo $article['name'] ?>
+            </a>
+            <div class="price">
+                <?php
+                    if ($article['price'] > 0) {
+                        $article['price'] = number_format($article['price']);
+                        echo "<span class='priceMain'>{$article['price']}<sup>VND</sup></span>";
+                    } else {
+                        echo "<span class='priceMain'>Liên hệ</span>";
+                    }
+
+
+                    if ($article['price_origin'] > 0) {
+                        echo "<span class='priceSale'>{$article['price_origin']}<sup>VND</sup></span>";
+                    }
+                ?>
+            </div>
+            <div class="infoUser">
+                <div class="imageUser">
+                    <a href="<?php echo $article['user']['url'] ?>" target="_blank">
+                        <img src="<?php echo $article['user']['avatar_url'] ?>" alt="">
+                    </a>
+                </div>
+                <div class="summaryUser">
+                    <span class="fullName">
+
+                        <a target="_blank" href="<?php echo $article['user']['url'] ?>">
+                            <?php
+                            if ($article['user']['membership_value'] == 22) {
+                                echo "<span class=\"label-premium Vip\">Vip {$article['user']['vip_type']}</span>";
+                            } else
+                            if ($article['user']['membership_value'] == 23) {
+                                echo "<span class=\"label-premium Partner\">Partner</span>";
+                            }
+                            ?>
+                            <?php echo $article['user']['name'] ?>
+                        </a>
+                    </span>
+                    <div class="phone">
+                        <span class="fa fa-phone"></span> <a class="telPhone" href="tel:<?php echo $article['user']['phone_number'] ?>"><?php echo $article['user']['phone'] ?></a>
+                    </div>
+                    <span class="address">
+                        <?php echo $article['address'] ?>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

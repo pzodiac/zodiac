@@ -1,0 +1,46 @@
+2018/12/04 11:53:16 [error] 7804#7804: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  Use of undefined constant LIBRARY_PATH - assumed 'LIBRARY_PATH' (this will throw an Error in a future version of PHP) in /home/nhanphong/zodiac/admin/Bootstrap.php on line 55
+PHP message: PHP Warning:  Use of undefined constant ADMINISTRATOR_PATH - assumed 'ADMINISTRATOR_PATH' (this will throw an Error in a future version of PHP) in /home/nhanphong/zodiac/admin/Bootstrap.php on line 233
+PHP message: PHP Warning:  Use of undefined constant ADMINISTRATOR_PATH - assumed 'ADMINISTRATOR_PATH' (this will throw an Error in a future version of PHP) in /home/nhanphong/zodiac/admin/Bootstrap.php on line 261
+PHP message: PHP Warning:  Use of undefined constant ADMINISTRATOR_PATH - assumed 'ADMINISTRATOR_PATH' (this will throw an Error in a future version of PHP) in /home/nhanphong/zodiac/admin/Bootstrap.php on line 289
+PHP message: PHP Warning:  Use of undefined constant ADMINISTRATOR_PATH - assumed 'ADMINISTRATOR_PATH' (this will throw an Error in a future version of PHP) in /home/nhanphong/zodiac/admin/Bootstrap.php on line 175
+PHP message: PHP Fatal error:  Uncaught Error: Class 'Lib\Menu\Helper\Menu' not found in /home/nhanphong/zodiac/core/modules/Application/Mvc/Helper.php:28
+Stack trace:
+#0 /home/nhanphong/zodiac/admin/Bootstrap.php(114): Application\Mvc\Helper->__construct()
+#1 /home/nhanphong/zodiac/admin/index.php(30): Zodiac\Bootstrap->run()
+#2 {main}
+  thrown in /home/nhanphong/zodiac/core/modules/Application/Mvc/Helper.php on line 28" while reading response header from upstream, client: 127.0.0.1, server: zodiac.com, request: "GET /admin/ HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "zodiac.com"
+2018/12/04 11:53:17 [error] 7804#7804: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  Use of undefined constant LIBRARY_PATH - assumed 'LIBRARY_PATH' (this will throw an Error in a future version of PHP) in /home/nhanphong/zodiac/admin/Bootstrap.php on line 55
+PHP message: PHP Warning:  Use of undefined constant ADMINISTRATOR_PATH - assumed 'ADMINISTRATOR_PATH' (this will throw an Error in a future version of PHP) in /home/nhanphong/zodiac/admin/Bootstrap.php on line 233
+PHP message: PHP Warning:  Use of undefined constant ADMINISTRATOR_PATH - assumed 'ADMINISTRATOR_PATH' (this will throw an Error in a future version of PHP) in /home/nhanphong/zodiac/admin/Bootstrap.php on line 261
+PHP message: PHP Warning:  Use of undefined constant ADMINISTRATOR_PATH - assumed 'ADMINISTRATOR_PATH' (this will throw an Error in a future version of PHP) in /home/nhanphong/zodiac/admin/Bootstrap.php on line 289
+PHP message: PHP Warning:  Use of undefined constant ADMINISTRATOR_PATH - assumed 'ADMINISTRATOR_PATH' (this will throw an Error in a future version of PHP) in /home/nhanphong/zodiac/admin/Bootstrap.php on line 175
+PHP message: PHP Fatal error:  Uncaught Error: Class 'Lib\Menu\Helper\Menu' not found in /home/nhanphong/zodiac/core/modules/Application/Mvc/Helper.php:28
+Stack trace:
+#0 /home/nhanphong/zodiac/admin/Bootstrap.php(114): Application\Mvc\Helper->__construct()
+#1 /home/nhanphong/zodiac/admin/index.php(30): Zodiac\Bootstrap->run()
+#2 {main}
+  thrown in /home/nhanphong/zodiac/core/modules/Application/Mvc/Helper.php on line 28" while reading response header from upstream, client: 127.0.0.1, server: zodiac.com, request: "GET /admin/ HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "zodiac.com"
+2018/12/04 14:32:57 [error] 1086#1086: *6 FastCGI sent in stderr: "PHP message: PHP Warning:  array_slice() expects parameter 1 to be array, null given in /home/nhanphong/zodiac/core/plugins/Localization.php on line 24
+PHP message: PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/nhanphong/zodiac/core/plugins/Localization.php on line 24
+PHP message: PHP Warning:  Invalid argument supplied for foreach() in /home/nhanphong/zodiac/core/plugins/Localization.php on line 39" while reading response header from upstream, client: 127.0.0.1, server: zodiac.com, request: "GET /admin/ HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "zodiac.com"
+2018/12/04 14:34:48 [error] 1086#1086: *9 FastCGI sent in stderr: "PHP message: PHP Warning:  array_slice() expects parameter 1 to be array, null given in /home/nhanphong/zodiac/core/plugins/Localization.php on line 24
+PHP message: PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/nhanphong/zodiac/core/plugins/Localization.php on line 24
+PHP message: PHP Warning:  Invalid argument supplied for foreach() in /home/nhanphong/zodiac/core/plugins/Localization.php on line 39" while reading response header from upstream, client: 127.0.0.1, server: zodiac.com, request: "GET /admin/ HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "zodiac.com"
+2018/12/04 14:36:03 [error] 1086#1086: *12 FastCGI sent in stderr: "PHP message: PHP Warning:  array_slice() expects parameter 1 to be array, null given in /home/nhanphong/zodiac/core/plugins/Localization.php on line 24
+PHP message: PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/nhanphong/zodiac/core/plugins/Localization.php on line 24
+PHP message: PHP Warning:  Invalid argument supplied for foreach() in /home/nhanphong/zodiac/core/plugins/Localization.php on line 39" while reading response header from upstream, client: 127.0.0.1, server: zodiac.com, request: "GET /admin/ HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "zodiac.com"
+2018/12/04 14:36:04 [error] 1086#1086: *12 FastCGI sent in stderr: "PHP message: PHP Warning:  array_slice() expects parameter 1 to be array, null given in /home/nhanphong/zodiac/core/plugins/Localization.php on line 24
+PHP message: PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/nhanphong/zodiac/core/plugins/Localization.php on line 24
+PHP message: PHP Warning:  Invalid argument supplied for foreach() in /home/nhanphong/zodiac/core/plugins/Localization.php on line 39" while reading response header from upstream, client: 127.0.0.1, server: zodiac.com, request: "GET /admin/ HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "zodiac.com"
+2018/12/04 14:38:05 [error] 1086#1086: *16 FastCGI sent in stderr: "PHP message: PHP Warning:  array_slice() expects parameter 1 to be array, null given in /home/nhanphong/zodiac/core/plugins/Localization.php on line 24
+PHP message: PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/nhanphong/zodiac/core/plugins/Localization.php on line 24
+PHP message: PHP Warning:  Invalid argument supplied for foreach() in /home/nhanphong/zodiac/core/plugins/Localization.php on line 39" while reading response header from upstream, client: 127.0.0.1, server: zodiac.com, request: "GET /admin/ HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "zodiac.com"
+2018/12/04 14:38:05 [error] 1086#1086: *16 FastCGI sent in stderr: "PHP message: PHP Warning:  array_slice() expects parameter 1 to be array, null given in /home/nhanphong/zodiac/core/plugins/Localization.php on line 24
+PHP message: PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/nhanphong/zodiac/core/plugins/Localization.php on line 24
+PHP message: PHP Warning:  Invalid argument supplied for foreach() in /home/nhanphong/zodiac/core/plugins/Localization.php on line 39" while reading response header from upstream, client: 127.0.0.1, server: zodiac.com, request: "GET /admin/ HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "zodiac.com"
+2018/12/04 14:38:06 [error] 1086#1086: *16 FastCGI sent in stderr: "PHP message: PHP Warning:  array_slice() expects parameter 1 to be array, null given in /home/nhanphong/zodiac/core/plugins/Localization.php on line 24
+PHP message: PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/nhanphong/zodiac/core/plugins/Localization.php on line 24
+PHP message: PHP Warning:  Invalid argument supplied for foreach() in /home/nhanphong/zodiac/core/plugins/Localization.php on line 39" while reading response header from upstream, client: 127.0.0.1, server: zodiac.com, request: "GET /admin/ HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "zodiac.com"
+2018/12/04 14:38:06 [error] 1086#1086: *16 FastCGI sent in stderr: "PHP message: PHP Warning:  array_slice() expects parameter 1 to be array, null given in /home/nhanphong/zodiac/core/plugins/Localization.php on line 24
+PHP message: PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/nhanphong/zodiac/core/plugins/Localization.php on line 24
+PHP message: PHP Warning:  Invalid argument supplied for foreach() in /home/nhanphong/zodiac/core/plugins/Localization.php on line 39" while reading response header from upstream, client: 127.0.0.1, server: zodiac.com, request: "GET /admin/ HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "zodiac.com"
