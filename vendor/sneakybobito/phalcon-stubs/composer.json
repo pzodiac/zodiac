@@ -1,0 +1,7 @@
+{
+    "name": "sneakybobito/phalcon-stubs",
+    "type": "library",
+    "description": "IDE Stubs for phalconphp",
+    "keywords": ["IDE","stubs","phalcon"],
+    "homepage": "https://github.com/gsouf/phalcon-stubs"
+}
